@@ -1,7 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+
 }
 
 const about = {
@@ -9,7 +8,7 @@ const about = {
   role: 'Software Engineer',
   description:
     'A Software Engineer and life’s dedicated student. There is never a situation in which more knowledge comes at a detriment. My favorite thing to do is converse with people and learn the stories and knowledge they have. I yearn for the day that I have become an expert and I have more knowledge to share than to gain but know that this day will never truly come.',
-  resume: 'https://example.com',
+  resume: 'https://zmoneaportfolio.netlify.app/',
   social: {
     linkedin: 'https://www.linkedin.com/in/zachary-monea/',
     github: 'https://github.com/Zmonea',
@@ -30,33 +29,33 @@ const projects = [
   {
     name: 'Project 2 - Mongoosey',
     description:
-      'A',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A fantasy card based backend setup using MongoDB and Mongoose. Basic Sign up and sign in. MVC setup ',
+    stack: ['Node', 'Mongoose', 'MongoDB'],
+    sourceCode: 'https://github.com/Zmonea/Mongoosey',
+    livePreview: 'https://mongooseyproject.herokuapp.com/gear',
   },
   {
     name: 'Project 3 - Find My Car',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+      'Collab with Jimmy Nguyen for a MERN stack application. Car Cards and form setup complete with a basic login functionality. ',
+    stack: ['Mongoose', 'Express', 'React','Node'],
+    sourceCode: 'https://github.com/Zmonea/FindMyCar_Front',
     livePreview: 'https://findmycar-frontend.herokuapp.com/'
   },
   {
     name: 'Project 4 - The Lazy Dev',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['Django', 'Python', 'React'],
+      'Collab with Ian Lockharrt and Lorens Gueron. Full stack app using Python Django backend into a React frontend.',
+    stack: ['Django', 'Python', 'React','Sass'],
     sourceCode: 'https://github.com/lockhaim/Project_4_Frontend',
     livePreview: 'https://github.com',
   },
   {
     name: 'Project 5 - ChattyRooms (General Assembly Capstone Project)',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['Django', 'Python', 'React'],
-    sourceCode: 'https://github.com',
+      'Built a Chat app with MERN stack using socket IO. Used Oauth 2.0 with JWT bearer Tokens.',
+    stack: ['Mongoose', 'Express', 'React','Node'],
+    sourceCode: 'https://github.com/Zmonea/capstoneprojectFrontEnd',
     livePreview: 'https://chatty-rooms-project.herokuapp.com/',
   },
   
@@ -80,13 +79,15 @@ const skills = [
   'Python',
   'Django',
   'MongoDB',
-  'Oauth 2.0'
+  'Oauth 2.0',
+  'Node',
+  'Express'
 
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'https://github.com/Zmonea',
+  email: 'zac.j.monea@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
