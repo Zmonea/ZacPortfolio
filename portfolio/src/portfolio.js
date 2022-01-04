@@ -8,7 +8,7 @@ const about = {
   role: 'Software Engineer',
   description:
     'A Software Engineer and life’s dedicated student. There is never a situation in which more knowledge comes at a detriment. My favorite thing to do is converse with people and learn the stories and knowledge they have. I yearn for the day that I have become an expert and I have more knowledge to share than to gain but know that this day will never truly come.',
-  resume: 'https://zmoneaportfolio.netlify.app/',
+  resume: 'https://docs.google.com/document/d/1hFTxY545l6JZ-xLiBfl39xzcanaXuCOEmsDWoNnwms4/edit?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/zachary-monea/',
     github: 'https://github.com/Zmonea',
@@ -48,7 +48,7 @@ const projects = [
       'Collab with Ian Lockharrt and Lorens Gueron. Full stack app using Python Django backend into a React frontend.',
     stack: ['Django', 'Python', 'React','Sass'],
     sourceCode: 'https://github.com/lockhaim/Project_4_Frontend',
-    livePreview: 'https://github.com',
+    livePreview: 'https://lazy-dev-project-frontend.herokuapp.com/',
   },
   {
     name: 'Project 5 - ChattyRooms (General Assembly Capstone Project)',

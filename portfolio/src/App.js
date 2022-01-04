@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContext, useRef, useState, useMemo } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import * as THREE from 'three';
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
